@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-gray-900 h-full min-h-full min-w-full text-gray-300 w-full;
+  }
+}
