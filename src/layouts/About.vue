@@ -22,40 +22,15 @@
                     class="object-contain size-full">
                 </div> -->
 
-                <span class="border-b-2 border-gray-400 pb-1.5 px-3">
+                <span class="border-b-4 border-gray-400 pb-1.5 px-3">
                     <span class="font-bold text-gray-400 text-lg
                     sm:text-2xl">About</span>
                 </span>
 
                 <p class="pt-6 text-lg
-                sm:text-xl">I am a Full-Stack Web Developer, with experience hands-on building Single Page Application (SPA).</p>
+                sm:text-2xl">I am a Full-Stack Web Developer, with experience hands-on building Single Page Application (SPA).</p>
             </div>
         </div>
-
-        <!-- <div class="bg-gray-600 border border-gray-600 my-6 p-3 rounded-lg select-none
-        lg:absolute lg:bottom-0 lg:max-w-sm lg:p-6 lg:right-0">
-            <span class="block font-bold text-left text-xl">My favourite quotes:</span>
-
-            <ul
-            role="list"
-            class="flex flex-col gap-y-3 pt-3">
-                <li>
-                    <p>
-                        <i>"One of greatest blessing in life, <span class="font-bold">the freedom to pursue one's goal</span>"</i>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <i>"Celebrate life's grandeur, <span class="font-bold">it's beautiful, it's magnificent</span>"</i>
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        <i>"Attaining one's dream, <span class="font-bold">require stern will and unfailing determination</span>"</i>
-                    </p>
-                </li>
-            </ul>
-        </div> -->
     </div>
 </template>
 
