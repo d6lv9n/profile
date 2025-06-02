@@ -5,7 +5,7 @@
   lg:max-w-6xl lg:mx-auto lg:px-6">
     <AboutLayout></AboutLayout>
 
-
+    <SkillsLayout></SkillsLayout>
   </div>
 </template>
 
@@ -14,4 +14,5 @@ import { onMounted } from 'vue';
 // Layouts
 import AboutLayout from './layouts/About/Root.vue';
 import NavigationLayout from './layouts/Navigation.vue';
+import SkillsLayout from './layouts/Skills/Root.vue';
 </script>
