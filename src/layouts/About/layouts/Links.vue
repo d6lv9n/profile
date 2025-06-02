@@ -18,18 +18,6 @@
         <li>
             <a
             href="javascript:void(0);"
-            title="Let's follow each other on Instagram!"
-            class="bg-gray-800 border-2 border-gray-400 flex flex-grow-0 flex-shrink-0 items-center justify-center rounded-full size-10
-            sm:size-14">
-                <IconMDIInstagram
-                :height="iconSize"
-                :width="iconSize"
-                :color="'rgb(212, 212, 212)'"></IconMDIInstagram>
-            </a>
-        </li>
-        <li>
-            <a
-            href="javascript:void(0);"
             title="Let's connect on LinkedIn!"
             class="bg-gray-800 border-2 border-gray-400 flex flex-grow-0 flex-shrink-0 items-center justify-center rounded-full size-10
             sm:size-14">
@@ -46,7 +34,6 @@
 import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue';
 // Icons
 import IconMDIGithub from '@/svg-icons/mdi/github.vue';
-import IconMDIInstagram from '@/svg-icons/mdi/instagram.vue';
 import IconMDILinkedin from '@/svg-icons/mdi/linkedin.vue';
 
 // Computed
