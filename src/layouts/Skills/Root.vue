@@ -63,6 +63,8 @@ const hardSkills = [
     'Laravel',
     'MySQL',
     'PostgreSQL',
+    'Schema Design',
+    'Database Design',
     'Debugging',
     'Responsive Design',
     'Code Review',
