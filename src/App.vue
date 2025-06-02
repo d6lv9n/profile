@@ -12,6 +12,6 @@
 <script setup>
 import { onMounted } from 'vue';
 // Layouts
-import AboutLayout from './layouts/About.vue';
+import AboutLayout from './layouts/About/Root.vue';
 import NavigationLayout from './layouts/Navigation.vue';
 </script>
