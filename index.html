@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
   <head>
+    <link rel="preconnect prefetch" href="https://www.googletagmanager.com">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,11 +9,19 @@
     <meta name="title" content="Christian Delvianto" />
     <meta name="description" content="Hi, my name is Christian Delvianto, I am ..." />
     <title>Christian Delvianto</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XK7JQ8SJ88"></script>
   </head>
   <body>
     <noscript>Please enable your JavaScript to view this page</noscript>
 
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-XK7JQ8SJ88');
+    </script>
   </body>
 </html>
