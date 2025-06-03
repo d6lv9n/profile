@@ -4,6 +4,18 @@
 
 @layer base {
   html, body {
-    @apply bg-gray-900 h-full min-h-full min-w-full text-gray-300 w-full;
+    @apply antialiased bg-gray-900 h-full min-h-full min-w-full text-gray-300 w-full;
   }
 }
+
+/**
+    Animations
+*/
+.fade-enter-active, .fade-leave-active
+  { transition: opacity 300ms ease-in-out; will-change: opacity; }
+.fade-enter-from, .fade-leave-to
+  { opacity: 0; }
+.scale-enter-active, .scale-leave-active
+  { transition: opacity 300ms, transform 300ms; }
+.scale-enter-from, .scale-leave-to
+  { opacity: 0; transform: scale(0.72); }
