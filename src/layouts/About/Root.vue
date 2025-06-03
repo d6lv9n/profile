@@ -22,7 +22,8 @@
                     class="object-contain size-full">
                 </div> -->
 
-                <span class="border-b-2 border-white pb-1.5 px-3">
+                <span class="border-b-2 border-white pb-1.5 pr-6
+                sm:px-3">
                     <span class="font-bold text-lg
                     sm:text-2xl">About</span>
                 </span>
