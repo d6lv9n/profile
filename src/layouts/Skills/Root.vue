@@ -110,7 +110,6 @@ const softSkills = [
     'Continuous Learning',
     'Positive Attitude',
     'Emotional Intelligence',
-    'Empathy',
     'Critical Thinking',
     'Independent and Team Player',
 ];
