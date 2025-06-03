@@ -14,7 +14,7 @@
                 :src="welcomeImage"
                 alt="Welcome"
                 draggable="false"
-                class="animate-pulse bg-black block rounded-lg"/>
+                class="block rounded-lg"/>
 
                 <p class="text-center text-gray-800">Hi welcome to my profile and I thank you for the visit, but unfortunately, <b>this page is still under progress</b>. Please kindly revisit again later.</p>
 
