@@ -4,8 +4,8 @@
         <div class="rounded-lg select-none
         lg:max-w-sm">
             <div>
-                <span class="border-b-2 border-white pb-1.5 px-3
-                sm:border-gray-400">
+                <span class="border-b-2 border-white pb-1.5 pr-6
+                sm:border-gray-400 sm:px-3">
                     <span class="font-bold text-lg
                     sm:text-2xl">Hard skills</span>
                 </span>
@@ -17,15 +17,15 @@
                 <li
                 v-for="skill in hardSkills"
                 :key="skill"
-                class="border border-gray-400 flex-shrink-0 px-3 py-1.5 rounded-full">{{ skill }}</li>
+                class="border border-blue-400 flex-shrink-0 font-semibold px-3 py-1.5 rounded-full text-blue-400">{{ skill }}</li>
             </ul>
         </div>
 
         <div class="rounded-lg select-none
         lg:max-w-sm">
             <div>
-                <span class="border-b-2 border-white pb-1.5 px-3
-                sm:border-gray-400">
+                <span class="border-b-2 border-white pb-1.5 pr-6
+                sm:border-gray-400 sm:px-3">
                     <span class="font-bold text-lg
                     sm:text-2xl">Soft skills</span>
                 </span>
@@ -37,7 +37,7 @@
                 <li
                 v-for="skill in softSkills"
                 :key="skill"
-                class="border border-gray-400 flex-shrink-0 px-3 py-1.5 rounded-full">{{ skill }}</li>
+                class="border border-green-400 flex-shrink-0 font-semibold px-3 py-1.5 rounded-full text-green-400">{{ skill }}</li>
             </ul>
         </div>
     </div>
@@ -79,8 +79,8 @@ const hardSkills = [
     'Media Processing',
     'Queue Processing',
     'RESTful Web Services',
-    'Error Logging System',
-    'Error Notification System',
+    'Creating Error Logging System',
+    'Creating Error Notification System',
     'API Development',
     'Authentication Tracking',
     'RESTful API',
