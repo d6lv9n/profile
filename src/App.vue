@@ -8,9 +8,11 @@
     <SkillsLayout></SkillsLayout>
   </div>
 
-  <WelcomeModal
-  v-if="modals.welcome"
-  @close="modals.welcome = false"></WelcomeModal>
+  <Transition appear mode="out-in" name="fade">
+    <WelcomeModal
+    v-if="modals.welcome"
+    @close="modals.welcome = false"></WelcomeModal>
+  </Transition>
 </template>
 
 <script setup>
@@ -30,10 +32,11 @@ const modals = reactive({
 // Lifecycles
 onBeforeMount(() => {
   // Check if the welcome modal should be shown
-  if (! localStorage.getItem('hasVisited')) {
+  if (! localStorage.getItem('hasVisited') && ! localStorage.getItem('visitTime')) {
     modals.welcome = true;
 
     localStorage.setItem('hasVisited', 'true');
+    localStorage.setItem('visitTime', new Date().toISOString());
   }
 });
 </script>
